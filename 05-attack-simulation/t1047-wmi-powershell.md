@@ -50,5 +50,3 @@ La règle recherche une relation parent/enfant suspecte :
 ## Résultat
 
 Wazuh a collecté l’événement Sysmon et déclenché une alerte de criticité élevée. Le log permet d’identifier le processus parent, le processus enfant et la ligne de commande utilisée.
-
-## Capture associée
