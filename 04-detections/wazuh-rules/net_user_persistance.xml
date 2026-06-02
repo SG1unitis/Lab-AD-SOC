@@ -1,9 +1,13 @@
+<group name="windows,sysmon,custom_rules,">
+
   <rule id="100005" level="9">
     <if_sid>61603</if_sid>
-    <field name="win.eventdata.image" type="pcre2">(?i)net(1)?\.exe</field>
-    <field name="win.eventdata.commandLine" type="pcre2">(?i)user.*\/add</field>
+    <field name="win.eventdata.image" type="pcre2">(?i)\\net1?\.exe$</field>
+    <field name="win.eventdata.commandLine" type="pcre2">(?i)\buser\b.*\s/add\b</field>
     <description>Persistance potentielle : création d'un compte utilisateur local via net.exe</description>
     <mitre>
       <id>T1136.001</id>
     </mitre>
   </rule>
+
+</group>
