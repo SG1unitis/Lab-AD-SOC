@@ -17,7 +17,7 @@ WmiPrvSE.exe → powershell.exe
 
 Une commande distante est exécutée via wmic, provoquant le lancement d’un processus PowerShell encodé en Base64 sur la machine cible.
 
-Télémétrie attendue
+Télémétrie attendue : 
 ```text
 Source	Sysmon
 Event ID	1
