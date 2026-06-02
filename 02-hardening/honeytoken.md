@@ -15,7 +15,7 @@ Un compte honeytoken ne doit jamais être utilisé dans un fonctionnement normal
 - Aucun usage opérationnel légitime
 - Surveillance des échecs d’authentification
 
-## Télémétrie attendue
+## Télémétrie 
 
 | Élément | Valeur |
 |---|---|
