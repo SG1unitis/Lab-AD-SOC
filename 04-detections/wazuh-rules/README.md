@@ -18,7 +18,7 @@ Les règles sont conçues pour détecter des comportements observables dans les 
 
 ## Principes de conception
 
-Chaque règle doit préciser :
+Chaque règle contient les éléments suivants :
 
 - le comportement recherché ;
 - la source de log utilisée ;
