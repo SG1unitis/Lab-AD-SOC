@@ -1,6 +1,6 @@
 <group name="windows,sysmon,custom_rules,">
 
-  <rule id="100002" level="5">
+  <rule id="100002" level="8">
     <if_sid>61603</if_sid>
     <field name="win.eventdata.image" type="pcre2">(?i)\\whoami\.exe$</field>
     <description>Reconnaissance Système : Exécution suspecte de la commande whoami</description>
