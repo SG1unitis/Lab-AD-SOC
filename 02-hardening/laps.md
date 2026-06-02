@@ -17,10 +17,6 @@ Sans LAPS, un attaquant qui compromet le mot de passe administrateur local d’u
 - Déploiement du client LAPS sur le poste utilisateur
 - Validation de la rotation du mot de passe local
 
-## Points de vigilance
-
-La GPO LAPS s’applique à l’objet ordinateur, pas à l’objet utilisateur. Une erreur de placement dans l’OU empêche donc la machine de recevoir la configuration.
-
 ## Résultat
 
 Le poste utilisateur dispose d’un mot de passe administrateur local unique, complexe et automatiquement renouvelé.
