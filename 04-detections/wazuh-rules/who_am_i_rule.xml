@@ -1,0 +1,8 @@
+  <rule id="100002" level="8">
+    <if_sid>61603</if_sid>
+    <field name="win.eventdata.image" type="pcre2">whoami\.exe</field>
+    <description>Reconnaissance Système : Exécution suspecte de la commande whoami</description>
+    <mitre>
+      <id>T1033</id>
+    </mitre>
+  </rule>
