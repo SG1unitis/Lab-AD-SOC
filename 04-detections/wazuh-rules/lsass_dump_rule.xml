@@ -1,9 +1,12 @@
+<group name="windows,sysmon,custom_rules,">
+ 
  <rule id="100003" level="12">
     <if_sid>61603</if_sid>
-    <field name="win.eventdata.image" type="pcre2">(?i)rundll32\.exe</field>
+    <field name="win.eventdata.image" type="pcre2">(?i)\\rundll32\.exe</field>
     <field name="win.eventdata.commandLine" type="pcre2">(?i)comsvcs\.dll.*MiniDump</field>
     <description>Tentative de dump mémoire LSASS via rundll32 (Credential Dumping)</description>
     <mitre>
       <id>T1003.001</id>
     </mitre>
   </rule>
+</group>
