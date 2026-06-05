@@ -12,7 +12,7 @@ Construire un environnement Active Directory réaliste afin de simuler des compo
 - Wazuh : SIEM open-source
 - Atomic Red Team : simulation contrôlée de techniques adverses
 
-## Compétences démontrées
+## Compétences/points travaillés
 - Administration Active Directory
 - Durcissement Windows par GPO
 - Déploiement Sysmon
